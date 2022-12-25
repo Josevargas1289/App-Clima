@@ -1,0 +1,96 @@
+.card-container{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+}
+.card{
+  width: 70%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  background-color: azure;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px 1px white;
+  margin: 1rem;
+  padding: .5rem;
+  border: 1px solid black;
+  color: blueviolet;
+ 
+}
+
+.allData{
+  margin-bottom: 1rem;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+
+}
+.btn{
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: .3rem;
+  box-shadow: 1px 1px 10px 1px gray;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  transition: all 300ms;
+
+
+}
+.btn:hover{
+  background-color: rgb(92, 44, 138);
+  cursor: pointer;
+
+}
+.text-color-data{
+  color: black;
+  font-weight: bold;
+}
+.temp{
+  color: black;
+  margin-bottom: .3rem;
+}
+.temp p{
+  color: blueviolet;
+  
+}
+.img{
+  width: 50px;
+}
+
+
+@media screen and (max-width: 678px) and (min-width: 500px){
+ 
+  .card-container{
+    margin: 1rem;
+  }
+  .allData{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .card{
+    max-width: 300px;
+    height: 100vh;
+    padding: 1rem;
+
+  }
+ 
+}
