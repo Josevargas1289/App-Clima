@@ -52,7 +52,7 @@ const Clima = () => {
                         {" "}
                         {isCentigrados ?   "°F" : "°C"}
                     </h5>
-                    <img className='img'src="./src/assets/images/dom.png" alt="icon" />
+                    <img className='img'src="./src/images/dom.png" alt="icon" />
                     </div>
                     <div className='data'>
                         <span>"scattered clouds"</span>
