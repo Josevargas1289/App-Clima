@@ -79,7 +79,7 @@
  
   .card-container{
     margin: 1rem;
-    font-size: 30px;
+    font-size: 25px;
 
   }
   .allData{
@@ -91,13 +91,13 @@
   }
   .card{
     max-width: 500px;
-    font-size: 30px;
-    height: 90vh;
+    font-size: 25px;
+    height: 60vh;
     padding: 1rem;
 
   }
   .btn{
-    font-size: 30px;
+    font-size: 25px;
   }
 
  
