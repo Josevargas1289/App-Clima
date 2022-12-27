@@ -5,10 +5,11 @@
   box-sizing: content-box;
 }
 body{
-  background-image: url(https://media.giphy.com/media/fe3zisUnJjbqM/giphy.gif);
+  background-image: url(https://media.giphy.com/media/SnI9JZGHU9vb2/giphy.gif);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 
   padding: 2rem;
 }

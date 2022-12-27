@@ -16,13 +16,14 @@
   flex-direction: column;
   justify-content: center;
   justify-items: center;
-  background-color:rgba(128, 128, 128, 0.701);
+  background-color:rgba(128, 128, 128, 0.804);
   border-radius: 1rem;
   box-shadow: 1px 1px 10px 1px white;
   margin: 1rem;
   padding: .5rem;
   border: 1px solid white;
-  color: #772efd;
+  color: #3b01a6;
+  font-weight: bold;
  
 }
 
@@ -43,7 +44,7 @@
 
 }
 .btn{
-  background-color: #772efd;
+  background-color: #3b01a6;
   color: white;
   border: none;
   border-radius: 1rem;
@@ -72,7 +73,7 @@
   line-height: 2rem;
 }
 .temp p{
-  color: #772efd;
+  color: #3b01a6;
   
 }
 .img{
