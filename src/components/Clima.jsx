@@ -27,7 +27,7 @@ const Clima = () => {
 
     }, [])
     
-
+    const icon = wheater.weather?.[0]?.icon
  
   const [isCentigrados, setIsCentigrados] = useState(true)
   const GradosF = Math.floor((wheater.main?.temp -273.15)* 9/5 + 32);
@@ -54,7 +54,7 @@ const Clima = () => {
                         {" "}
                         {isCentigrados ?   "°F" : "°C"}
                     </h5>
-                    <img  src={`http://openweathermap.org/img/wn/${wheater.weather?.[0]?.icon}@2x.png`} alt="icon" className='imgWheather'/>
+                    <img  src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt="icon" className='imgWheather'/>
                     </div>
                     <div className='data'>
                         <span>"scattered clouds"</span>
