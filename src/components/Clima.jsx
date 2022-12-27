@@ -28,7 +28,7 @@ const Clima = () => {
 
     }, [])
     
-    // console.log(wheater);
+
  
   const [isCentigrados, setIsCentigrados] = useState(true)
   const GradosF = Math.floor((wheater.main?.temp -273.15)* 9/5 + 32);
