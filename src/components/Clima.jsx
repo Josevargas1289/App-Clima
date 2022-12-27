@@ -23,7 +23,6 @@ const Clima = () => {
             console.warn(`ERROR(${err.code}): ${err.message}`);
         }
       
-
         navigator.geolocation.getCurrentPosition(success, error);
 
     }, [])
