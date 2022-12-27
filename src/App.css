@@ -112,7 +112,10 @@
     margin-bottom: 8rem;
   }
 
-
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
   .btn{
     font-size: 25px;
   }
