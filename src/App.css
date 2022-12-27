@@ -10,8 +10,8 @@
 
 }
 .card{
-  width: 70%;
-  height: 80vh;
+  width: 90%;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,6 +39,7 @@
 .title{
   margin-bottom: 1rem;
   padding-top: 1rem;
+
 
 }
 .btn{
