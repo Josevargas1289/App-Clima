@@ -11,27 +11,29 @@
 }
 .card{
   width: 70%;
-  height: calc(100vh - 17rem);
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-items: center;
-  background-color: azure;
+  background-color:rgba(128, 128, 128, 0.701);
   border-radius: 1rem;
   box-shadow: 1px 1px 10px 1px white;
   margin: 1rem;
   padding: .5rem;
-  border: 1px solid black;
-  color: blueviolet;
+  border: 1px solid white;
+  color: #772efd;
  
 }
 
 .allData{
-  margin-bottom: 1rem;
+  margin: 1.5rem 10px 2rem 10px;
+ 
 }
 .data{
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 
 .title{
@@ -40,11 +42,11 @@
 
 }
 .btn{
-  background-color: blueviolet;
+  background-color: #772efd;
   color: white;
   border: none;
   border-radius: 1rem;
-  padding: .3rem;
+  padding: .7rem;
   box-shadow: 1px 1px 10px 1px gray;
   width: 50%;
   margin: 0 auto;
@@ -53,6 +55,7 @@
 
 
 }
+
 .btn:hover{
   background-color: rgb(92, 44, 138);
   cursor: pointer;
@@ -65,13 +68,21 @@
 .temp{
   color: black;
   margin-bottom: .3rem;
+  line-height: 2rem;
 }
 .temp p{
-  color: blueviolet;
+  color: #772efd;
   
 }
 .img{
   width: 50px;
+}
+.container-btn{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 1rem;
+
 }
 
 
@@ -90,14 +101,18 @@
 
   }
   .card{
-    max-width: 500px;
+    max-width: 390px;
     font-size: 25px;
-    height: 80vh;
+    height: 488px;
     padding: 1rem;
+    overflow-y: hidden;
 
   }
   .btn{
     font-size: 25px;
+  }
+  .data{
+    text-align: right;
   }
 
  
