@@ -11,7 +11,7 @@
 }
 .card{
   width: 90%;
-  height: 65vh;
+  height: 77vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +104,7 @@
   .card{
     max-width: 450px;
     font-size: 25px;
-    height: 600px;
+    height: 500px;
     padding: 1rem;
     position: fixed;
     margin-bottom: 8rem;
