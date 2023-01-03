@@ -54,7 +54,7 @@ const Clima = () => {
                             {" "}
                             {isCentigrados ? "°F" : "°C"}
                         </h5>
-                        <img src={`http://openweathermap.org/img/wn/${wheater.weather?.[0].icon}@2x.png`} alt="icon" className='imgWheather' />
+                        <img src={`https://openweathermap.org/img/wn/${wheater.weather?.[0].icon}@2x.png`} alt="icon" className='imgWheather' />
 
                     </div>
                     <div className='data'>
