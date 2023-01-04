@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import React from 'react';
+import Screencharge from './Screencharge';
 
 const Clima = () => {
     const [wheater, setWeather] = useState({})
+    const [isLoading, setIsLoading] = useState(true);
 
 
     useEffect(() => {
@@ -11,6 +13,7 @@ const Clima = () => {
             const crd = pos.coords;
             axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${crd.latitude}&lon=${crd.longitude}&appid=f6d945db6562a0ae2f08c9577775bf32`)
                 .then(res => setWeather(res.data));
+                setTimeout(() => setIsLoading(false), 2000);
 
             // console.log('Your current position is:');
             // console.log(`Latitude : ${crd.latitude}`);
@@ -38,7 +41,14 @@ const Clima = () => {
     }
 
     return (
-        <div className='card-container'>
+        
+     <div>
+        {
+            isLoading ? (
+                <Screencharge/>
+
+            ):(
+                <div className='card-container'>
             <div className='card'>
                 <div className='title'>
                     <h1>Weather App</h1>
@@ -83,6 +93,11 @@ const Clima = () => {
                 </div>
             </div>
 
+        </div>
+
+            )
+        }
+        
         </div>
     );
 };
